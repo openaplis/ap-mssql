@@ -11,7 +11,7 @@
     "url": "git+https://github.com/openaplis/ap-mssql.git"
   },
   "author": "Sid Harder",
-  "license": "IMIT",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/openaplis/ap-mssql/issues"
   },
