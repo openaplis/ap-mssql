@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/openaplis/ap-mssql/issues"
   },
-  "homepage": "https://github.com/openaplis/ap-mssql#readme"
+  "homepage": "https://github.com/openaplis/ap-mssql#readme",
+  "dependencies": {
+    "ap-secrets": "0.0.1",
+    "mssql": "^3.3.0"
+  }
 }
