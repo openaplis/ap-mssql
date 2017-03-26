@@ -1,0 +1,90 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "Result",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Karyotype",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Interpretation",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Scored",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "NumberOfColonies",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "NumberOfCultures",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Karyotyped",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Analyzed",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Counted",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "GTGBandLevel",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TestDetails",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

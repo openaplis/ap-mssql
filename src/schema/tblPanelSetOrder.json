@@ -1,0 +1,562 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "True",
+    "name": "ReportNo",
+    "width": "20",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PanelSetId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PanelSetName",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "MasterAccessionNo",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ExternalOrderId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FinaledById",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Final",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FinalDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FinalTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AcceptedById",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Accepted",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AcceptedDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AcceptedTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AcceptedBy",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderedById",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderedByInitials",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Signature",
+    "width": "150",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AssignedToId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TemplateId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Audited",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AuditedById",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AuditedDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HoldBilling",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResultDocumentSource",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResultDocumentPath",
+    "width": "150",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Published",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TimeLastPublished",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ScheduledPublishTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PublishNotificationSent",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TimeOfLastPublishNotification",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TechnicalComponentFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TechnicalComponentInstrumentId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TechnicalComponentBillingFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HasTechnicalComponent",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ProfessionalComponentFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ProfessionalComponentBillingFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HasProfessionalComponent",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderedOnId",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderedOn",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PreparationProcedure",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResultCode",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "NoCharge",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Ordered14DaysPostDischarge",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "BillingType",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "IsBillable",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "IsPosted",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Distribute",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "UniversalServiceId",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReferenceLabSignature",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReferenceLabFinalDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ExpectedFinalTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "IsDelayed",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "DelayedBy",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "DelayedDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "DelayComment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CaseType",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HoldForPeerReview",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PeerReviewRequestComment",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PeerReviewRequestType",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HoldDistribution",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AdditionalTestingEmailSent",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AdditionalTestingEmailSentBy",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TimeAdditionalTestingEmailSent",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AdditionalTestingEmailMessage",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AdditionalTestingEmailAddress",
+    "width": "200",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReportReferences",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResearchTesting",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  }
+]

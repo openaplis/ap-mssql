@@ -1,0 +1,346 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "True",
+    "name": "SpecimenOrderId",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenType",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CollectionDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CollectionTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenSite",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationType",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationDuration",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Description",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AliquotRequestCount",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AccessionTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ClientFixation",
+    "width": "25",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LabFixation",
+    "width": "25",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CollectionTimeUnknown",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "1",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "MasterAccessionNo",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationComment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenNumber",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ClientSpecimenNumber",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ClientAccessioned",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Accepted",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecialInstructions",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ContainerId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Verified",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "VerifiedById",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "VerifiedDate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "RequiresBlindVerification",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SystemInitiatingOrder",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenSource",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "DateReceived",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecimenAdequacy",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LocationFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OwnerFacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "RequiresGrossExamination",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "1",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LocationId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ProcessorStartTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ProcessorFixationTime",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationStartTimeManuallyEntered",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationStartTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FixationEndTime",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TimeToFixation",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TimeToFixationHourString",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

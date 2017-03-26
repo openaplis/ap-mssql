@@ -1,0 +1,26 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "Comment",
+    "width": "1000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CancelledTestId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CancelledTestName",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

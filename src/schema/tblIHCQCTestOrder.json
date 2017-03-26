@@ -1,0 +1,18 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ControlsReactedAppropriately",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Comment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

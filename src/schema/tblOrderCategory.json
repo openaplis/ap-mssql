@@ -1,0 +1,34 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "True",
+    "name": "OrderCategoryId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderCategoryName",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Priority",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "is-primary-key": "True",
+    "name": "HostName",
+    "width": "200",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LocationId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "BarcodeScanEnabled",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "BarcodeScanPort",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "'COM3'",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LastLocalDataUpdate",
+    "width": "3",
+    "data-type": "datetime",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LockMode",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "'Always Attempt Lock'",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ContainerLabelPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "HistologySlideLabelPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CytologySlideLabelPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "RequisitionPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CassettePrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LaserCassettePrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SpecialStainAcknowledgementPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "StartupPage",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "MolecularLabelPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "MolecularLabelFormat",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PageScanner",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FacilityId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ActivateNotificationAlert",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AlertWaveFileName",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AcknowledgeTasksFor",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TecanImportExportPath",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SlideMatePrinterPath",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "WeekdayProcessorRunId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "WeekendProcessorRunId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CytologySlidePrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LastReportNo",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ThermoFisherSlidePrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "UseLaserCassettePrinter",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "GPathologistId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "FedExLabelPrinter",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

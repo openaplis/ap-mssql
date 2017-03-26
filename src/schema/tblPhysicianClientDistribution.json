@@ -1,0 +1,34 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "True",
+    "name": "PhysicianClientDistributionID",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PhysicianClientID",
+    "width": "50",
+    "data-type": "nvarchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "DistributionID",
+    "width": "50",
+    "data-type": "nvarchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

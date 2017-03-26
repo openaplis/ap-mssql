@@ -1,0 +1,218 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "IncludeImmunoRecommendedComment",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "IncludeResultComment",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "IncludePolysomyComment",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CellsCounted",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TotalChr17SignalsCounted",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TotalHer2SignalsCounted",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Her2byIHCOrder",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "NumberOfObservers",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "2",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Result",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PolysomyPercent",
+    "width": "20",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Chr17SignalRangeLow",
+    "width": "10",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Chr17SignalRangeHigh",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Her2SignalRangeLow",
+    "width": "10",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Her2SignalRangeHigh",
+    "width": "10",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CommentLabel",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResultDescription",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SampleAdequacy",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ProbeSignalIntensity",
+    "width": "30",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "TechComment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ResultComment",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "InterpretiveComment",
+    "width": "5000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "GeneticHeterogeneity",
+    "width": "100",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Her2Chr17ClusterRatio",
+    "width": "20",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReportReference",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "SourceBlock",
+    "width": "350",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Indicator",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Method",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

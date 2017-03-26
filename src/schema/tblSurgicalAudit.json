@@ -1,0 +1,202 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "True",
+    "name": "SurgicalAuditId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReportNo",
+    "width": "20",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PapCorrelationRequired",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ReportableCase",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PQRIRequired",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AmendmentId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ImmediateCorrelation",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PapCorrelation",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PQRIInstructions",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ClinicalInfo",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "GrossX",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ImmediateX",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "MicroscopicX",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Comment",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CancerSummary",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Status",
+    "width": "10",
+    "data-type": "varchar",
+    "default-value": "'Open'",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CaseType",
+    "width": "20",
+    "data-type": "varchar",
+    "default-value": "'Surgical'",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ImmunoComment",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LocumPerformedForInitials",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "AJCCStage",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ImmediateCorrelationComment",
+    "width": "250",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PapCorrelationComment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PapCorrelationAccessionNo",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "PathologistId",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "False"
+  }
+]

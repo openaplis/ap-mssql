@@ -1,0 +1,10 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "GrossX",
+    "width": "-1",
+    "data-type": "text",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

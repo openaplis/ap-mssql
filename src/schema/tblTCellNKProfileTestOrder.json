@@ -1,0 +1,122 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "WBC",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "LymphocytePercentage",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD3TPercent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD4TPercent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD8TPercent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD16CD56NKPercent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Method",
+    "width": "200",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "ASRComment",
+    "width": "500",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD3Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD4Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD8Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD16Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD19Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD45Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "CD56Percent",
+    "width": "",
+    "data-type": "float",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "OrderImmediateExam",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "OrderFrozenSection",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

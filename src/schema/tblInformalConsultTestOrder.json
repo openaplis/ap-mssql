@@ -1,0 +1,18 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "Request",
+    "width": "2000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Result",
+    "width": "2000",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

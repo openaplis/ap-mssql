@@ -1,0 +1,26 @@
+[
+  {
+    "is-primary-key": "True",
+    "name": "SystemUserRoleID",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "UserID",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "RoleID",
+    "width": "11",
+    "data-type": "int",
+    "default-value": "0",
+    "is-nullable": "True"
+  }
+]

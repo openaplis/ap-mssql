@@ -1,0 +1,26 @@
+[
+  {
+    "is-primary-key": "True",
+    "name": "ObjectId",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "False"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "Version",
+    "width": "200",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  },
+  {
+    "is-primary-key": "False",
+    "name": "EnforceChange",
+    "width": "1",
+    "data-type": "tinyint",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]

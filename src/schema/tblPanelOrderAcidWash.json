@@ -1,0 +1,10 @@
+[
+  {
+    "is-primary-key": "False",
+    "name": "Result",
+    "width": "50",
+    "data-type": "varchar",
+    "default-value": "null",
+    "is-nullable": "True"
+  }
+]
