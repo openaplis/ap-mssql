@@ -1,82 +1,85 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "Result",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "InstabilityLevel",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "BAT25Instability",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "BAT26Instability",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "D5S346Instability",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "D17S250Instability",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "D2S123Instability",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Interpretation",
-    "width": "1500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Method",
-    "width": "1000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TestDevelopment",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "MicrosatelliteInstabilityAnalysisTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "Result",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "InstabilityLevel",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "BAT25Instability",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "BAT26Instability",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "D5S346Instability",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "D17S250Instability",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "D2S123Instability",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Interpretation",
+      "width": "1500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Method",
+      "width": "1000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TestDevelopment",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

@@ -1,26 +1,29 @@
-[
-  {
-    "is-primary-key": "True",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Version",
-    "width": "200",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "EnforceChange",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "ApplicationVersion",
+  "fields": [
+    {
+      "isPrimaryKey": "True",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Version",
+      "width": "200",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "EnforceChange",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

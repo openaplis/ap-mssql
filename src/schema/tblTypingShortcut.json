@@ -1,66 +1,69 @@
-[
-  {
-    "is-primary-key": "True",
-    "name": "ShortcutId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Shortcut",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Text",
-    "width": "8000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Type",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'Global'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "UserId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "5075",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "UserName",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "'Global'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Category",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "'Global'",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "TypingShortcut",
+  "fields": [
+    {
+      "isPrimaryKey": "True",
+      "name": "ShortcutId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Shortcut",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Text",
+      "width": "8000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Type",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'Global'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "UserId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "5075",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "UserName",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "'Global'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Category",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "'Global'",
+      "isNullable": "True"
+    }
+  ]
+}

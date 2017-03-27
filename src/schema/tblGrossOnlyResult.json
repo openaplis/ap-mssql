@@ -1,10 +1,13 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "GrossX",
-    "width": "-1",
-    "data-type": "text",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "GrossOnlyTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "GrossX",
+      "width": "-1",
+      "dataType": "text",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

@@ -1,162 +1,165 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "MissingInformation",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CallComments",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FirstCall",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FirstCallMadeBy",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TimeOfFirstCall",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FirstCallComment",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SecondCall",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SecondCallMadeBy",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TimeOfSecondCall",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SecondCallComment",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ThirdCall",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ThirdCallMadeBy",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TimeOfThirdCall",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ThirdCallComment",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Fax",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FaxSentBy",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TimeFaxSent",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientSystemLookup",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientSystemLookupBy",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TimeOfClientSystemLookup",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "MissingInformationTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "MissingInformation",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CallComments",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FirstCall",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FirstCallMadeBy",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TimeOfFirstCall",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FirstCallComment",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SecondCall",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SecondCallMadeBy",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TimeOfSecondCall",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SecondCallComment",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ThirdCall",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ThirdCallMadeBy",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TimeOfThirdCall",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ThirdCallComment",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Fax",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FaxSentBy",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TimeFaxSent",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientSystemLookup",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientSystemLookupBy",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TimeOfClientSystemLookup",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

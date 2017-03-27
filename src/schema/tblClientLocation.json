@@ -1,82 +1,85 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "True",
-    "name": "ClientLocationId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Location",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderType",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenTrackingInitiated",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "AllowMultipleOrderTypes",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DefaultOrderPanelSetId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "AllowMultipleOrderDetailTypes",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DefaultOrderDetailTypeCode",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "ClientLocation",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "True",
+      "name": "ClientLocationId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Location",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderType",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenTrackingInitiated",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "AllowMultipleOrderTypes",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DefaultOrderPanelSetId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "AllowMultipleOrderDetailTypes",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DefaultOrderDetailTypeCode",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

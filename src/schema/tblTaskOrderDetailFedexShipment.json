@@ -1,106 +1,109 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "TrackingNumber",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToFacilityId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ZPLII",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LabelHasBeenPrinted",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToName",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToPhone",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToAddress1",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToAddress2",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToCity",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToState",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipToZip",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "PaymentType",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "AccountNo",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "TaskOrderDetailFedexShipment",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "TrackingNumber",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToFacilityId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ZPLII",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LabelHasBeenPrinted",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToName",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToPhone",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToAddress1",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToAddress2",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToCity",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToState",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipToZip",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "PaymentType",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "AccountNo",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

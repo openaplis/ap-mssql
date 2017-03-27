@@ -1,66 +1,69 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "True",
-    "name": "StainTestId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TestId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CptCode",
-    "width": "20",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CptCodeQuantity",
-    "width": "20",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ImmunoCommentId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ControlComment",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "StainType",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "StainTest",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "True",
+      "name": "StainTestId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TestId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CptCode",
+      "width": "20",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CptCodeQuantity",
+      "width": "20",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ImmunoCommentId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ControlComment",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "StainType",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

@@ -1,234 +1,237 @@
-[
-  {
-    "is-primary-key": "True",
-    "name": "PhysicianId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FirstName",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LastName",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MiddleInitial",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Credentials",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Active",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "1",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Address",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "City",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "State",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Zip",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Phone",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Fax",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OutsideConsult",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HPVTest",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HPVInstructionID",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HPVTestToPerformID",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "1",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FullName",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HPVStandingOrderCode",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'STNDNONE'",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ReportDeliveryMethod",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DisplayName",
-    "width": "250",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HomeBaseClientId",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "KRASBRAFStandingOrder",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Npi",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "HPV1618StandingOrderCode",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'STNDNONE'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MDFirstName",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MDLastName",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SendPublishNotifications",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "PublishNotificationEmailAddress",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "Physician",
+  "fields": [
+    {
+      "isPrimaryKey": "True",
+      "name": "PhysicianId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FirstName",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LastName",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MiddleInitial",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Credentials",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Active",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "1",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Address",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "City",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "State",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Zip",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Phone",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Fax",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OutsideConsult",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HPVTest",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HPVInstructionID",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HPVTestToPerformID",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "1",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FullName",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HPVStandingOrderCode",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'STNDNONE'",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ReportDeliveryMethod",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DisplayName",
+      "width": "250",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HomeBaseClientId",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "KRASBRAFStandingOrder",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Npi",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "HPV1618StandingOrderCode",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'STNDNONE'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MDFirstName",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MDLastName",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SendPublishNotifications",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "PublishNotificationEmailAddress",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

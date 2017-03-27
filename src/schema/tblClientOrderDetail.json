@@ -1,298 +1,301 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "ObjectId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "True",
-    "name": "ClientOrderDetailId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientOrderId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ContainerId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenNumber",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Submitted",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Accessioned",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Received",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DateReceived",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Validated",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Description",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DescriptionToAccession",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderTime",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderedBy",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderType",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecialInstructions",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Inactive",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CollectionDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CallbackNumber",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientFixation",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LabFixation",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Shipped",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ShipmentId",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenNumberMatchStatus",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'Not Determined'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenDescriptionMatchStatus",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'Not Determined'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenTrackingInitiated",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "'Bedside'",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SystemInitiatingOrder",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenSource",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OrderTypeCode",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "RequiresGrossExamination",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "1",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FixationComment",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FixationStartTime",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "FixationStartTimeManuallyEntered",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ClientAccessioned",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "ClientOrderDetail",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "ObjectId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "True",
+      "name": "ClientOrderDetailId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientOrderId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ContainerId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenNumber",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Submitted",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Accessioned",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Received",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DateReceived",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Validated",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Description",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DescriptionToAccession",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderTime",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderedBy",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderType",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecialInstructions",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Inactive",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CollectionDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CallbackNumber",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientFixation",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LabFixation",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Shipped",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ShipmentId",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenNumberMatchStatus",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'Not Determined'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenDescriptionMatchStatus",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'Not Determined'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenTrackingInitiated",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "'Bedside'",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SystemInitiatingOrder",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenSource",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OrderTypeCode",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "RequiresGrossExamination",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "1",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FixationComment",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FixationStartTime",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "FixationStartTimeManuallyEntered",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ClientAccessioned",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    }
+  ]
+}

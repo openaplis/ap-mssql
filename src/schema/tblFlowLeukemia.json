@@ -1,266 +1,269 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenNumber",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "GatingPopulation",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "GatingPopulationV2",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LymphocyteCount",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "GPLymphocytePrc",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MonocyteCount",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MyeloidCount",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "DimCD45ModSSCount",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OtherCount",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "OtherName",
-    "width": "200",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LightScatter",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "BCellPercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TCellPercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "NKCellPercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "MyeloidCellPercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "InterpretiveComment",
-    "width": "5000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Impression",
-    "width": "1000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenViability",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "SpecimenViabilityPercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CellPopulationOfInterest",
-    "width": "100",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TestResult",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CellDescription",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "BTCellSelection",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "KappaLambda",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "EGateCD34Percent",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "EGateCD117Percent",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TechFinal",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TechFinalDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TechFinalTime",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TechFinaledById",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ReportComment",
-    "width": "1000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TestCancelledComment",
-    "width": "1000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "TestCancelled",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "False"
-  }
-]
+{
+  "className": "PanelSetOrderLeukemiaLymphoma",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenNumber",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "GatingPopulation",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "GatingPopulationV2",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LymphocyteCount",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "GPLymphocytePrc",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MonocyteCount",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MyeloidCount",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "DimCD45ModSSCount",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OtherCount",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "OtherName",
+      "width": "200",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LightScatter",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "BCellPercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TCellPercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "NKCellPercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "MyeloidCellPercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "InterpretiveComment",
+      "width": "5000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Impression",
+      "width": "1000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenViability",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "SpecimenViabilityPercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CellPopulationOfInterest",
+      "width": "100",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TestResult",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CellDescription",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "BTCellSelection",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "KappaLambda",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "EGateCD34Percent",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "EGateCD117Percent",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TechFinal",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TechFinalDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TechFinalTime",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TechFinaledById",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ReportComment",
+      "width": "1000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TestCancelledComment",
+      "width": "1000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "TestCancelled",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "False"
+    }
+  ]
+}

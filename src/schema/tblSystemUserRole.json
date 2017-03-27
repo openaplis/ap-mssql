@@ -1,26 +1,29 @@
-[
-  {
-    "is-primary-key": "True",
-    "name": "SystemUserRoleID",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "UserID",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "RoleID",
-    "width": "11",
-    "data-type": "int",
-    "default-value": "0",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "SystemUserRole",
+  "fields": [
+    {
+      "isPrimaryKey": "True",
+      "name": "SystemUserRoleID",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "UserID",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "RoleID",
+      "width": "11",
+      "dataType": "int",
+      "defaultValue": "0",
+      "isNullable": "True"
+    }
+  ]
+}

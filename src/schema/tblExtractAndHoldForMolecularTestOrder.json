@@ -1,10 +1,13 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "Comment",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "ExtractAndHoldForMolecularTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "Comment",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

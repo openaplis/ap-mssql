@@ -1,18 +1,21 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "ControlsReactedAppropriately",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "null",
-    "is-nullable": "False"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "Comment",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "IHCQCTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "ControlsReactedAppropriately",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "null",
+      "isNullable": "False"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "Comment",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

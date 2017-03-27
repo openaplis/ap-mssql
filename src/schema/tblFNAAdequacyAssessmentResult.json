@@ -1,18 +1,21 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "StartDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "EndDate",
-    "width": "3",
-    "data-type": "datetime",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "FNAAdequacyAssessmentTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "StartDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "EndDate",
+      "width": "3",
+      "dataType": "datetime",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

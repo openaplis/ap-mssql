@@ -1,18 +1,21 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "Interpretation",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "IncludeTestsPerformedOnOtherBlocks",
-    "width": "1",
-    "data-type": "tinyint",
-    "default-value": "0",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "ComprehensiveColonCancerProfile",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "Interpretation",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "IncludeTestsPerformedOnOtherBlocks",
+      "width": "1",
+      "dataType": "tinyint",
+      "defaultValue": "0",
+      "isNullable": "True"
+    }
+  ]
+}

@@ -1,10 +1,13 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "Comment",
-    "width": "500",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "HoldForFlowTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "Comment",
+      "width": "500",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}

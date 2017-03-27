@@ -1,66 +1,69 @@
-[
-  {
-    "is-primary-key": "False",
-    "name": "Method",
-    "width": "50",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "ASRComment",
-    "width": "1000",
-    "data-type": "varchar",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "WBC",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "LymphocytePercentage",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CD19BCellPositivePercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CD20BCellPositivePercent",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CD19AbsoluteCount",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  },
-  {
-    "is-primary-key": "False",
-    "name": "CD20AbsoluteCount",
-    "width": "",
-    "data-type": "float",
-    "default-value": "null",
-    "is-nullable": "True"
-  }
-]
+{
+  "className": "BCellEnumerationTestOrder",
+  "fields": [
+    {
+      "isPrimaryKey": "False",
+      "name": "Method",
+      "width": "50",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "ASRComment",
+      "width": "1000",
+      "dataType": "varchar",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "WBC",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "LymphocytePercentage",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CD19BCellPositivePercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CD20BCellPositivePercent",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CD19AbsoluteCount",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    },
+    {
+      "isPrimaryKey": "False",
+      "name": "CD20AbsoluteCount",
+      "width": "",
+      "dataType": "float",
+      "defaultValue": "null",
+      "isNullable": "True"
+    }
+  ]
+}
