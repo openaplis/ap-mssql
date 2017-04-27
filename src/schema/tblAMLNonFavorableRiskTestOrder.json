@@ -1,43 +1,44 @@
 {
-  "className": "AMLNonFavorableRiskTestOrder",
+  "objectName": "AMLNonFavorableRiskTestOrder",
+  "tableName": "tblAMLNonFavorableRiskTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Result",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Interpretation",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ProbeSetDetail",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "NucleiScored",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ReportDisclaimer",
       "width": "1000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

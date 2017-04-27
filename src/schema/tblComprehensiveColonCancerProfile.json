@@ -1,19 +1,20 @@
 {
-  "className": "ComprehensiveColonCancerProfile",
+  "objectName": "ComprehensiveColonCancerProfile",
+  "tableName": "tblComprehensiveColonCancerProfile",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Interpretation",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "IncludeTestsPerformedOnOtherBlocks",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     }

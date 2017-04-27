@@ -1,43 +1,44 @@
 {
-  "className": "MultipleMyelomaMGUSByFishTestOrder",
+  "objectName": "MultipleMyelomaMGUSByFishTestOrder",
+  "tableName": "tblMultipleMyelomaMGUSByFishTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Result",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ReportComment",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Interpretation",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ProbeSetDetail",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "NucleiScored",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

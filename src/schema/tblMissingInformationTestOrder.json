@@ -1,163 +1,164 @@
 {
-  "className": "MissingInformationTestOrder",
+  "objectName": "MissingInformationTestOrder",
+  "tableName": "tblMissingInformationTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "MissingInformation",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "CallComments",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "FirstCall",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "FirstCallMadeBy",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TimeOfFirstCall",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "FirstCallComment",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "SecondCall",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "SecondCallMadeBy",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TimeOfSecondCall",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "SecondCallComment",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ThirdCall",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ThirdCallMadeBy",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TimeOfThirdCall",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ThirdCallComment",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Fax",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "FaxSentBy",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TimeFaxSent",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ClientSystemLookup",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ClientSystemLookupBy",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TimeOfClientSystemLookup",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

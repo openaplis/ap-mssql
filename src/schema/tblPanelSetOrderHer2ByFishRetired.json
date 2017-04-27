@@ -1,219 +1,220 @@
 {
-  "className": "PanelSetOrderHer2AmplificationByFishRetired2",
+  "objectName": "PanelSetOrderHer2AmplificationByFishRetired2",
+  "tableName": "tblPanelSetOrderHer2AmplificationByFishRetired2",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "IncludeImmunoRecommendedComment",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "IncludeResultComment",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "IncludePolysomyComment",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "CellsCounted",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TotalChr17SignalsCounted",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TotalHer2SignalsCounted",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Her2byIHCOrder",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "0",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "NumberOfObservers",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "2",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Result",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "PolysomyPercent",
       "width": "20",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Chr17SignalRangeLow",
       "width": "10",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Chr17SignalRangeHigh",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Her2SignalRangeLow",
       "width": "10",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Her2SignalRangeHigh",
       "width": "10",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "CommentLabel",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ResultDescription",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "SampleAdequacy",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ProbeSignalIntensity",
       "width": "30",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "TechComment",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ResultComment",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "InterpretiveComment",
       "width": "5000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "GeneticHeterogeneity",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Her2Chr17ClusterRatio",
       "width": "20",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ReportReference",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "SourceBlock",
       "width": "350",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Indicator",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Method",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

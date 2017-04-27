@@ -1,11 +1,12 @@
 {
-  "className": "GrossOnlyTestOrder",
+  "objectName": "GrossOnlyTestOrder",
+  "tableName": "tblGrossOnlyTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "GrossX",
       "width": "-1",
-      "dataType": "text",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

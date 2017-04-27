@@ -1,19 +1,20 @@
 {
-  "className": "SurgicalClientOrder",
+  "objectName": "SurgicalClientOrder",
+  "tableName": "tblSurgicalClientOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "PreOpDiagnosis",
       "width": "1000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "PostOpDiagnosis",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

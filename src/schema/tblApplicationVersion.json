@@ -1,27 +1,28 @@
 {
-  "className": "ApplicationVersion",
+  "objectName": "ApplicationVersion",
+  "tableName": "tblApplicationVersion",
   "fields": [
     {
-      "isPrimaryKey": "True",
+      "isPrimaryKey": "true",
       "name": "ObjectId",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Version",
       "width": "200",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "EnforceChange",
       "width": "1",
-      "dataType": "tinyint",
+      "dataType": "boolean",
       "defaultValue": "null",
       "isNullable": "True"
     }

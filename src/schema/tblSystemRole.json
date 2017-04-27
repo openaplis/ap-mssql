@@ -1,19 +1,20 @@
 {
-  "className": "SystemRole",
+  "objectName": "SystemRole",
+  "tableName": "tblSystemRole",
   "fields": [
     {
-      "isPrimaryKey": "True",
+      "isPrimaryKey": "true",
       "name": "SystemRoleId",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "null",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "RoleName",
       "width": "100",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

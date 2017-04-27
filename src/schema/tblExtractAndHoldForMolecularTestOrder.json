@@ -1,11 +1,12 @@
 {
-  "className": "ExtractAndHoldForMolecularTestOrder",
+  "objectName": "ExtractAndHoldForMolecularTestOrder",
+  "tableName": "tblExtractAndHoldForMolecularTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Comment",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

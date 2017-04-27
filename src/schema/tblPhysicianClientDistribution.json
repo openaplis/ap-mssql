@@ -1,35 +1,36 @@
 {
-  "className": "PhysicianClientDistribution",
+  "objectName": "PhysicianClientDistribution",
+  "tableName": "tblPhysicianClientDistribution",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ObjectId",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "True",
+      "isPrimaryKey": "true",
       "name": "PhysicianClientDistributionID",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "null",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "PhysicianClientID",
       "width": "50",
-      "dataType": "nvarchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "DistributionID",
       "width": "50",
-      "dataType": "nvarchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }

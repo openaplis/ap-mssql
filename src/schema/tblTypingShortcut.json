@@ -1,67 +1,68 @@
 {
-  "className": "TypingShortcut",
+  "objectName": "TypingShortcut",
+  "tableName": "tblTypingShortcut",
   "fields": [
     {
-      "isPrimaryKey": "True",
+      "isPrimaryKey": "true",
       "name": "ShortcutId",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "null",
       "isNullable": "False"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "ObjectId",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Shortcut",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Text",
       "width": "8000",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Type",
       "width": "50",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "'Global'",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "UserId",
       "width": "11",
-      "dataType": "int",
+      "dataType": "number",
       "defaultValue": "5075",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "UserName",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "'Global'",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "Category",
       "width": "500",
-      "dataType": "varchar",
+      "dataType": "string",
       "defaultValue": "'Global'",
       "isNullable": "True"
     }

@@ -1,19 +1,20 @@
 {
-  "className": "FNAAdequacyAssessmentTestOrder",
+  "objectName": "FNAAdequacyAssessmentTestOrder",
+  "tableName": "tblFNAAdequacyAssessmentTestOrder",
   "fields": [
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "StartDate",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     },
     {
-      "isPrimaryKey": "False",
+      "isPrimaryKey": "false",
       "name": "EndDate",
       "width": "3",
-      "dataType": "datetime",
+      "dataType": "string",
       "defaultValue": "null",
       "isNullable": "True"
     }
